@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+                font-family: 'Georgia', serif;
+                margin: 0;
+                padding: 0;
+                background-color:#ecf3f9;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+              
+                
+             }
+             .container
+             {
+              width: 90%;
+              max-width: 400px;
+              background-color:#e6eaec ;
+              padding: 20px;
+              border-radius: 5px;
+             }
+             .maincontainer
+             {
+               line-height: 30px;
+               display: flex;
+               flex-direction: column;
+
+             }
+             .btn{
+               background-color: rgb(50, 171, 157);
+               border-color:  rgb(50, 171, 157);
+               color: white;
+               border-radius: 3px;
+               width: 60px;
+               cursor: pointer;
+              transition: 0.5s;
+             }
+             .btn:hover{
+               opacity: 1;
+               background-color: rgb(9, 150, 133);
+               transform: translateY(-3px);
+             }
+    </style>
+</head>
+<body>
+    <div class="container">
+   
+        <marquee> <h1>Login form</h1></marquee>
+        
+        <div class="maincontainer">
+          <form style="text-align: center;">
+            <label for="username"><b>Username:</b></label>
+            <input type="text" placeholder="user name" required></input><br>
+            <label for="password"><b>Password:</b></label>
+            <input type="password" placeholder="password" required></input><br>
+            <button class="btn"   type="submit" >Login</button>
+           </form>
+        </div> 
+    </div>
+</body>
+</html>
